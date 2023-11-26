@@ -250,7 +250,10 @@ main {
   margin: 0 0.5rem;
   transition: var(--transition);
   cursor: pointer;
-}
+  const prevBtn = document.querySelector('.prev-btn');
+  const nextBtn = document.querySelector('.next-btn');
+  const randomBtn = document.querySelector('.random-btn');
+  }
 .prev-btn:hover,
 .next-btn:hover {
   color: var(--clr-primary-5);
